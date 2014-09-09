@@ -1,0 +1,24 @@
+{
+    "name": "gdmedia/silverstripe-accordian-content",
+    "description": "Silverstripe module that allows you to easily implement jquery ui accordions in page content",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/guru-digital/silverstripe-accordian-content",
+    "keywords": ["silverstripe", "edit", "editor", "admin", "frontend", "front-end"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Corey Sewell - Guru Digital Media",
+            "email": "corey@gdmedia.tv"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/guru-digital/silverstripe-accordian-content/issues"
+    },
+    "require": {
+        "silverstripe/cms": ">=3.0.1,<3.2",
+        "composer/installers": "*"
+    },
+    "extra": {
+        "installer-name": "silverstripe-accordian-content"
+    }
+}
