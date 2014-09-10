@@ -1,0 +1,12 @@
+.ui-accordion{
+    .ui-accordion-header{
+        cursor: pointer;
+        &:focus{
+            outline: 0
+        }
+    }
+    .ui-accordion-content, > div {
+        display:none;
+        zoom: 1;
+    }
+}
